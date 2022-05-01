@@ -16,8 +16,7 @@
     "test:ci": "craco test --watchAll=false --runInBand",
     "build": "craco build",
     "build:storybook": "build-storybook -o build-storybook",
-    "lint": "eslint src .storybook *.js",
-    "prepare": "husky install"
+    "lint": "eslint src .storybook *.js"
   },
   "browserslist": {
     "production": [
@@ -52,7 +51,6 @@
     "cssnano": "5.0.14",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
-    "husky": "7.0.4",
     "postcss": "8.4.5",
     "prettier": "2.5.1",
     "react-scripts": "5.0.0",
